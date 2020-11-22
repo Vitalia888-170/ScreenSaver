@@ -1,0 +1,48 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+html,
+body {
+   width: 100%;
+   height: 100%;
+}
+
+.wrapper {
+   width: 100%;
+   height: 100%;
+   position: relative;
+   top: 0;
+   left: 0;
+   background-color: pink;
+}
+
+.wrapper__inner {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 88%;
+   height: 97%;
+   border: 1px solid #000;
+   background-color: #ffff;
+}
+.container {
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+.shell {
+   min-width: 200px;
+   min-height: 310px;
+}
+.pic {
+   width: 30%;
+   height: 70%;
+   background-size: contain;
+   opacity: 0;
+   transition: 0.8s ease-in-out;
+}
